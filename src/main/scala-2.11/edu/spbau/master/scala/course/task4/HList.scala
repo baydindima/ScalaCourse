@@ -1,4 +1,4 @@
-package edu.spbau.master.scala.task4
+package edu.spbau.master.scala.course.task4
 
 import scala.language.{implicitConversions, postfixOps}
 
