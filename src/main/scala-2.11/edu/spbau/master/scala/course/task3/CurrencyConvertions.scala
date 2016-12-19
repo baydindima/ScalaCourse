@@ -35,3 +35,7 @@ object CurrencyConversions {
   }
 
 }
+object Test extends App {
+  println(10.0.rub to eur on 21--11--2015: CurrencyAmount)
+  println((10.0.rub to eur on 21--11--2015: CurrencyAmount) to rub on 21--11--2015: CurrencyAmount)
+}
